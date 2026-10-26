@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        .box {
+            border: 2px solid orangered;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <form>
+            <label for="username">UserName : </label>
+            <input type="text" id="username" placeholder="username" name="username">
+            <br>
+            <br>
+            <label for="password">Password : </label>
+            <input type="password" id="password" required placeholder="password">
+            <br>
+            <br>
+            <!-- <input type="submit"> -->
+            <button>Submit</button>
+        </form>
+    </div>
+
+
+    <div class="box">
+        <label for="dob"> DOB : </label>
+        <input type="date" id="dob">
+        <br>
+        <br>
+        <label for="document"> Proofs : </label>
+        <input type="file" id="document">
+        <br>
+        <br>
+        <label for="color"> Fav color : </label>
+        <input type="color" id="color">
+        <br>
+        <br>
+        <label for="range"> Range: </label>
+        <input type="range" id="range" max="100" min="0">
+    </div>
+
+
+    <div class="box">
+        <label>GENDER :</label>
+        <br>
+        <br>
+
+        <label for="gender1">Male</label>
+        <input type="radio" id="gender1" name="gender" value="Male">
+        <br>
+
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <br>
+
+        <label for="gender3">Other</label>
+        <input type="radio" id="gender3" name="gender" value="Other">
+    </div>
+
+
+    <div class="box">
+        <form>
+            <label> Hobbies </label>
+            <br>
+            <br>
+
+            <label for="hobby1">Running</label>
+            <input type="checkbox" id="hobby1" name="Hobbies" value="Running">
+            <br>
+            <label for="hobby2">Swimming</label>
+            <input type="checkbox" id="hobby2" name="Hobbies" value="Swimming">
+            <br>
+            <label for="hobby3">Kick-Boxing</label>
+            <input type="checkbox" id="hobby3" name="Hobbies" value="Kick-Boxing">
+            <br>
+            <label for="hobby4">Cricket</label>
+            <input type="checkbox" id="hobby4" name="Hobbies" value="Cricket">
+            <br>
+            <label for="hobby5">Reading</label>
+            <input type="checkbox" id="hobby5" name="Hobbies" value="Reading">
+            <br>
+
+            <button>submit</button>
+        </form>
+    </div>
+
+    <div class="box">
+        <form >
+
+            <label for="country">Select Country : </label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Rom">Rom</option>
+            </select>
+        </form>
+
+        <br>
+
+        <label for="review"> Your Opnion : </label><br>
+        <textarea name="review" id="review" rows="10" cols="50">
+
+        </textarea>
+    </div>
+
+    <div class="box">
+
+        <iframe src="https://www.youtube.com/embed/OpWjt_wbV4E?si=r_fQqxywiVOrkfic"
+        frameborder="0"
+        height="500px"
+        width="800px" 
+        allowfullscreen ></iframe>
+    </div>
+
+</body>
+
+</html>
