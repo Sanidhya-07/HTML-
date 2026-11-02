@@ -28,26 +28,8 @@ HTML-/
     ├── list.html
     └── table.html
 ```
-How to Run
-Clone or download this repository.
-Open the project folder on your computer.
-Open any `.html` file in your web browser.
-No installation or build tools are required.
-Learning Goals
-Practise writing HTML from scratch.
-Understand how common HTML elements are used.
-Build a strong foundation for CSS and JavaScript.
-Apply these concepts in small, practical web projects.
-Next Steps
-Review and improve semantic HTML structure and accessibility.
-Continue learning CSS, including the box model, Flexbox, Grid, and
-responsive design.
-Build a personal portfolio website using HTML and CSS.
-About
-Created by Sanidhya Naik as part of my web development learning
-journey.
-GitHub: Sanidhya-07
-Repository: HTML-
----
+
+
+
 This repository is for learning and practice. I will continue updating
 it as I learn more.
